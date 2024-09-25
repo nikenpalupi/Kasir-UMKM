@@ -8,7 +8,7 @@
         </div>
         <div class="card">
             <div class="card-body login-card-body">
-                <p class="login-box-msg">Silahkan Login Terlebih Dahulu</p>
+                <p class="login-box-msg">Login Sek Boss!</p>
                 @if (session('loginError'))
                 <div class="alert alert-danger">
                     {{ session('loginError') }}
@@ -33,14 +33,14 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col">
                             <button type="submit" class="btn btn-primary btn-block">Login</button>
                         </div>
                     </div>
                 </form>
-                
-                
+
+
             </div>
         </div>
     </div>
